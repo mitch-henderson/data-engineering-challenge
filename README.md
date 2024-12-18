@@ -86,7 +86,7 @@ data-engineering-challenge/
 
 ## Key Tasks
 
-### 1. Data Ingestion (30 minutes)
+### 1. Data Ingestion (20 minutes)
 - Load generated CSV files into DuckDB
 - Define proper schemas
 - Implement basic data quality checks:
@@ -105,7 +105,7 @@ CREATE TABLE customers (
 );
 ```
 
-### 2. Data Transformation (45 minutes)
+### 2. Data Transformation (20 minutes)
 Use dbt to create models for:
 - Daily sales aggregations
 - Customer lifetime value
@@ -116,7 +116,7 @@ Include:
 - Documentation
 - Lineage graphs
 
-### 3. API Development (45 minutes)
+### 3. API Development (20 minutes)
 Build a Flask API with endpoints:
 - GET /api/v1/daily_sales
 - GET /api/v1/top_customers
@@ -127,21 +127,21 @@ Features:
 - Basic authentication
 - Request rate limiting
 
-### 4. Data Quality & Testing (30 minutes)
+### 4. Data Quality & Testing (optional: 30 minutes)
 Implement:
 - Great Expectations validations
 - Unit tests for API endpoints
 - Integration tests for data pipeline
 - Quality reports
 
-### 5. Documentation & Deployment (30 minutes)
+### 5. Documentation & Deployment (optional: 30 minutes)
 Provide:
 - Setup instructions
 - API documentation
 - Data model documentation
 - Docker deployment guide
 
-## Bonus Features
+## Bonus Features (optional: if Time Permits)
 - Incremental dbt processing
 - Swagger/OpenAPI documentation
 - Streamlit dashboards
