@@ -5,7 +5,7 @@ A practical, real-world simulation designed to assess your skills in building an
 ## Prerequisites
 
 - Python 3.8+
-- Git
+- Git 
 - Docker
 - DuckDB (Installation instructions below)
 - Terminal/Command Line familiarity
