@@ -13,7 +13,7 @@ A practical, real-world simulation designed to assess your skills in building an
 ### DuckDB Installation
 
 **Mac:**
-```bash
+```bash 
 brew install duckdb
 ```
 
